@@ -3,7 +3,8 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset=utf-8"utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <title>Uno Clone Site</title>
 
 
@@ -16,7 +17,7 @@
 
 			<p>
 				<small> Created by <a href="index-10.html"
-					tppabs="http://code.makery.ch/about">Mjj</a>
+					>Mjj</a>
 				</small>
 			</p>
 		</div>

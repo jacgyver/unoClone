@@ -2,7 +2,7 @@
 <%
 	String pagefile = request.getParameter("page");
 	if (pagefile == null) {
-		pagefile = "index-1";
+		pagefile = "java-1";
 	}
 %>
 <!doctype html>

@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset=utf-8"utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Uno Clone Site</title>
 </head>
 <body>
@@ -11,15 +11,13 @@
           <h4 class="panel-title">Topics</h4>  
         </div>
         <div class="list-group">
-          <a href="index-1.html" tppabs="http://code.makery.ch/library/" class="list-group-item active">All Topics</a>
-          <a href="index-11.html" tppabs="http://code.makery.ch/library/topic/html-css/" class="list-group-item">
-            <i class="fa fa-fw fa-circle topic-html-css"></i> Excel</a>
-          <a href="index-12.html" tppabs="http://code.makery.ch/library/topic/java/" class="list-group-item">
-            <i class="fa fa-fw fa-circle topic-java"></i> Java</a>
-          <a href="index-13.html" tppabs="http://code.makery.ch/library/topic/javafx/" class="list-group-item">
-            <i class="fa fa-fw fa-circle topic-javafx"></i> JavaFX</a>
-          <a href="index-14.html" tppabs="http://code.makery.ch/library/topic/dart/" class="list-group-item">
-            <i class="fa fa-fw fa-circle topic-dart"></i> Dart</a>
+          <a href="index.jsp"  class="list-group-item active">All Topics</a>
+          <a href="excel.jsp"  class="list-group-item">
+            <i class="fa fa-fw fa-circle topic-html-css"></i>Excel</a>
+          <a href="java.jsp"  class="list-group-item">
+            <i class="fa fa-fw fa-circle topic-java"></i>Java</a>
+          <a href="euler.jsp"  class="list-group-item">
+            <i class="fa fa-fw fa-circle topic-javafx"></i>Euler</a>
         </div>
       </div>
 </body>

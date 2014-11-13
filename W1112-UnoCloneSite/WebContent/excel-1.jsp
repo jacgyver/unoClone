@@ -1,10 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"	pageEncoding="utf-8"%>
-<%
-	String pagefile = request.getParameter("page");
-	if (pagefile == null) {
-		pagefile = "index-1";
-	}
-%>
 <!doctype html>
 <html lang="ko">
 <head>
@@ -20,7 +14,7 @@
 		</tr>
 		<tr>
 			<td width="15%" align=right valign=top><br> <jsp:include page="left.jsp" /></td>
-			<td colspan=2 align=center><jsp:include	page='<%=pagefile + ".jsp"%>' /></td>
+
 		</tr>
 		<tr>
 			<td width="100%" height="40" colspan="3"><jsp:include page="bottom.jsp" /></td>
